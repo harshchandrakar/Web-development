@@ -1,0 +1,13 @@
+
+h1{
+color:blue;
+}
+p{
+color:rgb(29, 240, 180);
+}
+li{
+color:#523d85;
+}
+h4{
+color:rgba(207, 127, 58 , 0.53); /* a stands for alfa which means solidity of colour 1 means solid and 0.5 means half faded*/
+}

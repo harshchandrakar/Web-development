@@ -1,0 +1,111 @@
+Lecture -9
+in this we learned about diffrent types inthich we can write our body in html
+1) heading (<h1>,<h2>,<h3>,<h4>,<h5>,<h6>)- basically <h1>,<h2>,<h3>,<h4>,<h5> and <h6> shows diffrent size of heading
+in this <h1> is the greatest in size and <h6> is the smallest in size.
+2) paragraph  - for writing paragraph we use <P></P> and write inside it although html is not
+indentation based but while writing we havr to m akr proper indentation  to make the code readable
+3)Font - there are two fonts in html bold and itlic
+old way-
+<b></b> - bold
+<i> </i> - italic
+new way -
+<strong></strong> -  bold
+<em> </em> - italic where em stands for emphasise
+
+lecture - 10
+in this part we will study about diffrent types of list
+1) ordered list(<ol><li></li></ol>) - in this we write numbered list
+ex input --  <h1><strong>Lists</strong></h1>
+    <ol><li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    </ol>
+    output -- Lists
+               1.item 1
+               2.item 2
+               3.item 3
+               4.item 4
+2) unordered list(<ul><li></li></ul>) - in this we write bulletin list
+ ex input -- <h1><strong>Lists</strong></h1>
+                    <ul><li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                    <li>item 4</li>
+                    </ul>
+    output -- Lists
+               *item 1
+               *item 2
+               *item 3
+               *item 4
+3)nested list(<ol><li></li><ul><li></li></ul></ol> or <ul><li></li><ol><li></li></ol></ul) -
+ example-- input -- <ol> <li>item 1</li>
+                         <li> item 2</li>
+                         <ul><li>nested 1</li>
+                             <li> nested 2</li>
+                              <ul><li>dual nested 1</li></ul>
+                         </ul></ul></ol>
+           output -- 1.item 1
+                     2.item 2
+                        *nested 1
+                        *nested 2
+                           *dual nested 1
+
+lecture 11
+in this section we will learn about how to add sytyle
+div - it is the tag which we use to make change using css in particular group
+span - it is the tag we use to create a change in particular line
+
+lecture 12
+
+in this section we will cover diffrent ways to source images, links and etc.
+1) sourcing an  image (<img scr="" alt="">) - scr is used to add source of the file and alt is used if image is not fond
+so it will show some information
+the output will be the image
+2) sourcing html file and links (<a href="#">click me</a>) -- we  have to put directory of html file or link we
+have to visit in place of # than we will  create clickable text  which will take us to the html file or link
+while putting link put full htttps or http link
+
+lecture 16
+in this section we will learn how to create a table
+ this follows following syntax:
+ for head in the coloum :
+ <thead>
+ <th></th>
+ </thead>
+ for adding colums:
+ <tr>
+ <td></td>
+ </tr>
+and all this will be wrap up in <table border="1"></table>
+example refer to exercise table
+
+lecture 19
+in this section we learn how to create a form and diffrent types of input type
+types of input type are :
+1) email
+2) password
+3) text
+4) submit
+5) colour
+and on this section we also learned how to set default values by adding value="".
+example see exercise forms.html
+
+lecture 20
+in this section we actually learned how to label the blocks in efficient way
+ther a re basically two waY To do this one is old way which is less efficient which use <lable> </lable>
+again and again
+or use modern way to use for and enter id
+for this see the example forms2
+
+and we learned how to use placeholder instead of value we use placeholder because it is temporary
+as we start entering any thing it automatically dissapears that is its key feature.
+if we add required at the last of the input that means that information have to filled compulsalary
+
+Lecture 21
+ on this section we learned how to create radio button and link them together and ho to create drop box and how to create
+ text area
+ refer to exercise forms3.html
+
+
+

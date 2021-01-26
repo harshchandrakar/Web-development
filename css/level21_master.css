@@ -1,0 +1,18 @@
+h1{
+   font-family: 'UniWideRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+body{
+  font-size: 20px;
+}
+#two{
+  font-size: 1.0em;
+}
+p{
+  font-style: italic;
+  font-weight: bolder;
+}
+h1{
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+h3{
+   font-family: 'WaltographRegular';
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   font-size: 30px;
+}
+table{
+  margin: auto;
+
+}
+#first{
+  background-color: #006D77;
+  width: 100px;
+  height: 200px;
+  padding: 14px;
+}
+#second{
+  background-color: #83C5BE;
+  width: 100px;
+  height: 200px;
+  padding: 14px;
+}
+#third{
+  background-color: #EDF6F9;
+  width: 100px;
+  height: 200px;
+  padding: 14px;
+}
+#fourth{
+  background-color: #ffddd2;
+  width: 100px;
+  height: 200px;
+  padding: 14px;
+}
+#five{
+  background-color: #e29578;
+  width: 100px;
+  height: 200px;
+  padding: 14px;
+}

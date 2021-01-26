@@ -1,0 +1,22 @@
+/* . shows that we are talking about class */
+.firstDiv{
+  color: blue;
+}
+.secondDiv{
+  color: red;
+}
+/* # shows that we are talking about ids */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+h3 + ul{
+  border: 4px solid purple;
+}
+li a{
+  color: pink;
+}
+li a[href="www.npr.org"]{
+  color: blue;
+  border: 2px dotted yellow ;
+}

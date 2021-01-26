@@ -1,0 +1,16 @@
+body{
+background:url(https://www.washingtonpost.com/graphics/2019/national/50-astronauts-life-in-space/img/astronautplaceholder.jpg);
+backgroung-repeat: no-repeat;
+}
+div{
+background:purple;
+border-color:orange;
+border-width:4px;
+border-style:double;
+}
+p{
+color:yellow;
+}
+span{
+background:red;
+}
